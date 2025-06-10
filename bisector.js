@@ -1,5 +1,5 @@
-import { Bisector, ConvexPolygon, MiddleSector, Point, ThompsonBisector } from "../../default-objects.js";
-import { drawPieceForIntersection, isIntersectionPixel, intersectTwoBisector, intersectThreeBisector, thompsonDistance } from "../../default-functions.js";
+import { Bisector, ConvexPolygon, MiddleSector, Point, ThompsonBisector } from "./default-objects.js";
+import { drawPieceForIntersection, isIntersectionPixel, intersectTwoBisector, intersectThreeBisector, thompsonDistance } from "./default-functions.js";
 
 export class BisectorManager {
     constructor(canvas) {
